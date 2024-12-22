@@ -197,7 +197,6 @@ static int max31760_parse_dt(struct device *dev,
 			pr_err("max31760 fan_pwr_bp gpio request failed\n");
 			goto error2;
 	}
-	}
 	turn_gpio(pdata, true);
 
 	return ret;
